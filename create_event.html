@@ -1,0 +1,64 @@
+<html>
+<link rel="stylesheet" type="text/css" href="create_event.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<script type="text/javascript" src="create_event.js"></script>
+<head>
+	<title>Event Plus +</title>
+</head>
+<body>
+
+<div id="choices">
+	<center><h1>Create an event:</h1></center>
+	<center>
+		<form>
+
+			Enter event title:
+  			<input id="titleOfEvent" name="title" type="text"> <br><br>
+
+  			Enter start event date:
+  			<input id="startDate" name="DD/MM/YYYY" type="date"> <br><br>
+
+  			Enter end event date:
+  			<input id="endDate" name="DD/MM/YYYY" type="date"> <br><br>
+
+  			Enter event starting time:
+  			<input  id="startTime" name="time" type="time" step="3600"> <br><br>
+
+  			Enter event ending time:
+  			<input  id="endTime" name="time" type="time" step="3600"> <br><br>
+
+  			Enter event duration (in hours):
+  			<input id="duration" type="number" min="0"> <br><br>
+
+  			Enter event description:
+  			<input id="eventDescription" type="text"> <br><br>
+
+  			Enter List of Attendees:
+  			<input class= "peopleTextBox" type= "text" name="people[]">
+  			<input class= "peopleTextBox" type= "text" name="people[]">
+  			<input class= "peopleTextBox" type= "text" name="people[]">
+  			<input class= "peopleTextBox" type= "text" name="people[]">
+
+
+  			<button type="button" onclick="whatever()">Create Event</button>
+
+
+
+
+		</form>
+
+	</center>
+
+</div>
+
+
+			<div id="grid">
+
+
+			</div>
+
+	
+
+</body>
+</html>
